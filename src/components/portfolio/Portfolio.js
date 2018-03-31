@@ -3,8 +3,10 @@ import './Portfolio.css';
 import { Link } from "react-router-dom";
 import journifi from "./images/journifi.png";
 import liftovers from "./images/lift-overs.png";
-import burger from "./images/Burger.png";
+import phandroid from "./images/phandroid.png";
 import digitome from "./images/digi-tome.png";
+import cc from "./images/cc.png";
+import batman from "./images/batman.png"
 
 class Portfolio extends Component{
     render(){
@@ -21,10 +23,17 @@ class Portfolio extends Component{
                     </div>
                     <br></br>
                     <div>
-                        <Link to="https://dtstrange-burger.herokuapp.com/" target="_blank">
-                            <img src={burger} alt={"Burger App"}></img>
+                        <Link to="https://dtstrange-tech-scraper.herokuapp.com/" target="_blank">
+                            <img src={phandroid} alt={"Phandroid Scraper App"}></img>
                         </Link>
-                        <p>This is an application where you can add a burger to a list which will have a button to move it to the eaten list.<br></br><br></br>The frontend is generated with Handlebars, and Bootstrap. The backend consists of MySQL and Sequelize.</p>
+                        <p>Using bootstrap Mongoose and Cheerio this app scrapes the latest articles from Phandroid.com</p>
+                    </div>
+                    <br></br>
+                    <div>
+                        <Link to="https://dtstrange.github.io/Crystals-collector/" target="_blank">
+                            <img src={cc} alt={"Crystals-collector"}></img>
+                        </Link>
+                        <p>Click game built using html5 and jquery</p>
                     </div>
                 </div>
                 <div className="col-md-6">
@@ -40,6 +49,15 @@ class Portfolio extends Component{
                             <img src={digitome} alt={"Digi-Tome"}></img>
                         </Link>
                         <p>Coming Soon</p>
+                    </div>
+                    <br></br>
+                    <br></br>
+                    
+                    <div>
+                        <Link to="https://dtstrange.github.io/TriviaGame/" target="_blank">
+                            <img src={batman} alt={"Batman Trivia Game"}></img>
+                        </Link>
+                        <p>Batman trivia game with a javascript built timer.</p>
                     </div>
                     <br></br>
                 <br></br>
