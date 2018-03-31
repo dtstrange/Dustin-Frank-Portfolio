@@ -41,6 +41,12 @@ class Portfolio extends Component{
                         </Link>
                         <p>Coming Soon</p>
                     </div>
+                    <br></br>
+                <br></br>
+                <br></br>
+                <br></br>
+                <br></br>
+                <br></br>
                 </div>
             </div>
         )

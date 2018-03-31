@@ -4,6 +4,7 @@ import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 import Navbar from './components/navbar/Navbar';
 import Bio from './components/bio/Bio';
 import Portfolio from './components/portfolio/Portfolio';
+import Footer from './components/footer/Footer'
 
 class App extends Component {
   render() {
@@ -17,7 +18,8 @@ class App extends Component {
                 <Route exact path="/" component={Bio}/>
                 <Route exact path="/portfolio" component={Portfolio}/>
               </div>
-            </Switch>  
+            </Switch>
+          <Footer/>
         </div>
       </Router>
       </div>

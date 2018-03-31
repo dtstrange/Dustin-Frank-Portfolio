@@ -1,9 +1,10 @@
 body{
-    background-color: #dd2108
+    background-image: url("./images/concrete.jpg")
 }
 
 p{
     padding-right: 40px;
+    
 };
 
 #github{
