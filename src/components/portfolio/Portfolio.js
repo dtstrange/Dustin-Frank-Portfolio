@@ -23,13 +23,24 @@ class Portfolio extends Component{
                     </div>
                     <br></br>
                     <div>
+                        <h3>Phandroid Scraper</h3>
                         <Link to="https://dtstrange-tech-scraper.herokuapp.com/" target="_blank">
                             <img src={phandroid} alt={"Phandroid Scraper App"}></img>
                         </Link>
                         <p>Using bootstrap Mongoose and Cheerio this app scrapes the latest articles from Phandroid.com</p>
                     </div>
                     <br></br>
+                    <br></br>
+                    <br></br>
+                    <br></br>
+                    <br></br>
+                    <br></br>
+                    <br></br>
+                    <br></br>
+                    <br></br>
+                    <br></br>
                     <div>
+                        <h3>Crystals-Collector</h3>
                         <Link to="https://dtstrange.github.io/Crystals-collector/" target="_blank">
                             <img src={cc} alt={"Crystals-collector"}></img>
                         </Link>
@@ -45,15 +56,17 @@ class Portfolio extends Component{
                         <p>Lift-overs is a food donation web application designed for business such as grocery stores and resturants to donate to organizations like food kitchens and NPOs. Drivers can donate their time to transport the food once the donation has been scheduled. <br></br><br></br>The frontend is generated using Handlebars, and bootstrap. MySQL was used for the database with Sequelize as the ORM.<br></br><br></br> I was responsible for The express server, routes, and authentication system.</p>
                     </div>
                     <div>
-                        <Link to="#">
+                        <h3>Digi-Tome</h3>
+                        <Link to="https://digi-tome.herokuapp.com/" target="_blank">
                             <img src={digitome} alt={"Digi-Tome"}></img>
                         </Link>
-                        <p>Coming Soon</p>
+                        <p>Digi-Tome is a budding online community for authors and bibliophiles alike. Writing enthusiasts can view and share each others work.<br></br><br></br>The fontend is generated using React, Bootstrap, and Particles.js. The backend users Express.js, JWT, MySQL, Sequelize, Express-Fileupload, Axios <br></br><br></br>I was responsible for the express server, implementing the pdf preview component react-pdf-js, authentication system, routes, favicon, and deployment</p>
                     </div>
                     <br></br>
                     <br></br>
                     
                     <div>
+                        <h3>Batman Trivia Game</h3>
                         <Link to="https://dtstrange.github.io/TriviaGame/" target="_blank">
                             <img src={batman} alt={"Batman Trivia Game"}></img>
                         </Link>
