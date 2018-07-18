@@ -1,6 +1,10 @@
 .footer{
     background-color: #f8f8f8;
     padding: 15px 0px 15px 0px;
-    
-
+    position: absolute;
+    bottom: 0px;
 };
+
+p{
+    font-family: 'Russo One', sans-serif;
+}

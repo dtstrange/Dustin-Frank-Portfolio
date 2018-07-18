@@ -1,8 +1,8 @@
 import React, { Component } from 'react';
 import me from './images/me.jpg';
-import './font.css';
 import github from './images/github-512.png';
 import linkedin from './images/linkedin.png';
+import email from './images/email.png'
 import { Link } from "react-router-dom";
 import './Bio.css';
 
@@ -20,6 +20,11 @@ const bioText = {
     color: "#333333"
 };
 
+const icon = {
+    height: "128px",
+    width: "128px"
+}
+
 class Bio extends Component{
     render(){
         return(
@@ -33,15 +38,16 @@ class Bio extends Component{
                     <br></br>
                     <br></br>
                     <div style={bio_style}>
-                        <p style={bioText}>I am a full stack developer with IT roots. For over a decade I have been an adept IT consultant and am now taking my talents to coding. I have recently completed a six-month intensive coding course at UCI. I am keen on backend, DEVOPS, and mobile app development. I will be pursuing the mobile app languages in my spare time such as REACT native, Kotlin, and Swift.</p>
+                        <p id="bio" style={bioText}>I am a full stack developer with IT roots. For over a decade I have been an adept IT consultant and am now taking my talents to coding. I have recently completed a six-month intensive coding course at UCI. I am keen on backend, DEVOPS, and mobile app development. I will be pursuing the mobile app languages in my spare time such as REACT native, Kotlin, and Swift.</p>
                         <Link to="https://github.com/dtstrange" target="_blank">
-                          <img src={github} alt={"My Github"}></img>  
+                          <img style={icon} src={github} alt={"My Github"}></img>  
                         </Link>
                         <Link to="https://www.linkedin.com/in/dustin-frank/" target="_blank">
-                            <img src={linkedin} alt={"My Linkedin"}></img>
+                            <img style={icon} src={linkedin} alt={"My Linkedin"}></img>
                         </Link>
-                        <br></br>
-                        <br></br>
+                        <Link to="mailto:dustintstrange@gmail.com?Subject=From%20your%20portfolio%20site" target="_top">
+                            <img  style={icon} src={email} alt={"Email me"}></img>
+                        </Link>
                         <br></br>
                         <br></br>
                         <br></br>

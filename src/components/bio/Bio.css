@@ -4,17 +4,14 @@ body{
 
 p{
     padding-right: 40px;
-    
+    font-family: 'Oswald', sans-serif;
+    font-size: 20px;
 };
 
-#github{
+.icon{
     height: 115px;
     width: 115px;
 };
 
-#linkedin{
-    height: 115px;
-    width: 115px;
-};
 
 
