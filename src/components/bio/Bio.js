@@ -38,7 +38,7 @@ class Bio extends Component{
                     <br></br>
                     <br></br>
                     <div style={bio_style}>
-                        <p id="bio" style={bioText}>I am a full stack developer with IT roots. For over a decade I have been an adept IT consultant and am now taking my talents to coding. I have recently completed a six-month intensive coding course at UCI. I am keen on backend, DEVOPS, and mobile app development. I will be pursuing the mobile app languages in my spare time such as REACT native, Kotlin, and Swift.</p>
+                        <p id="bio" style={bioText}>I am a full stack developer with IT roots. For over a decade I have been an adept IT consultant and am now taking my talents to coding. Technology has always been one of my passions. I have been coding for about a year starting with the coding bootcamp at UCI. I am keen on full stack, backend, DEVOPS, and mobile app development. This site was built with React.JS and Bootstrap.</p>
                         <Link to="https://github.com/dtstrange" target="_blank">
                           <img style={icon} src={github} alt={"My Github"}></img>  
                         </Link>
