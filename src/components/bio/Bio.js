@@ -7,7 +7,7 @@ import { Link } from "react-router-dom";
 import './Bio.css';
 
 const me_style ={
-    height: "250px",
+    height: "400px",
     width: "auto",
     float: "left"
 };
